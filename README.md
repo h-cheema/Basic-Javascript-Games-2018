@@ -1,5 +1,5 @@
 <h1 align="center">
-  Basic-Javascript-Games-2018
+  Basic Javascript Games (2018)
 </h1>
 
 <hr>
