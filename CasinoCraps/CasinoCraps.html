@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html window.onLoad="clearStats()">
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+
+	<div id="mainContentContainer">
+		<div id="display_dice">
+			<div id="die1">7</div>
+			<div id="die2">11</div>
+		</div>
+
+		<div id="display_output">
+			<h1 id="display_output_heading">You rolled...</h1>
+			<h1 id="display_output_output">0</h1>
+		</div>
+
+		<div id="display_message">
+			<h1 id="display_message_heading">Roll the dice!</h1>
+		</div>
+
+		<div id="display_controls">
+
+			<div id="display_controls_div_roll" onClick="CC_rollDice()" onmouseover="" style="cursor: pointer;">
+				Roll the dice!
+			</div>
+
+			<div id="display_controls_div_clear" onClick="CC_clearStats()" onmouseover="" style="cursor: pointer;">
+				Clear stats
+			</div>
+
+			<h1>Statistics</h1>
+
+			<p id="wins_counter">Wins: 0</p>
+			<p id="losses_counter">Losses: 0</p>
+
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+</html>

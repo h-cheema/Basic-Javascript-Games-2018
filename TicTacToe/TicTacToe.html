@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>TicTacToe</title> 
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+    <h1>TicTacToe</h1>
+
+    <table>
+        <tr>
+            <td id="cell00" onclick="setLetter(event), winChecker()"></td>
+            <td id="cell01" onclick="setLetter(event), winChecker()"></td>
+            <td id="cell02" onclick="setLetter(event), winChecker()"></td>
+        </tr>
+        <tr>
+            <td id="cell10" onclick="setLetter(event), winChecker()"></td>
+            <td id="cell11" onclick="setLetter(event), winChecker()"></td>
+            <td id="cell12" onclick="setLetter(event), winChecker()"></td>
+        </tr>
+        <tr>
+            <td id="cell20" onclick="setLetter(event), winChecker()"></td>
+            <td id="cell21" onclick="setLetter(event), winChecker()"></td>
+            <td id="cell22" onclick="setLetter(event), winChecker()"></td>
+        </tr>
+    </table>
+
+    <p>
+        <span id="message">Player X's turn</span>
+        <input type="button" value="reset game" onclick="resetGame();" onmouseover="" style="cursor: pointer;">
+    </p>
+
+</body>
+
+</html>
