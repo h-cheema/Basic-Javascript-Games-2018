@@ -4,9 +4,10 @@
 
 <hr>
 
-<p>
-  This is a mini web app I made in 2018. It was one of my first web development coding projects. It's slightly older but it's fully functional. 
-</p>
+## Summary
+* This is a mini web app I made in 2018. It was one of my first web development coding projects. It's slightly older but it's fully functional. 
+
+<br>
 
 ## The project contains two basic games:
 
